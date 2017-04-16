@@ -1,20 +1,12 @@
 object Form1: TForm1
-  Left = 94
+  Left = 538
   Height = 720
-  Top = 205
+  Top = 152
   Width = 1132
   Caption = 'Form1'
   ClientHeight = 720
   ClientWidth = 1132
   LCLVersion = '1.6.4.0'
-  object Panel1: TPanel
-    Left = 784
-    Height = 721
-    Top = -1
-    Width = 348
-    Caption = 'Panel1'
-    TabOrder = 0
-  end
   object Label1: TLabel
     Left = 10
     Height = 15
@@ -246,5 +238,50 @@ object Form1: TForm1
     Width = 40
     Caption = 'Label29'
     ParentColor = False
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 792
+    Height = 289
+    Top = 0
+    Width = 337
+    AutoFill = True
+    Caption = 'Сложность ИИ'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 269
+    ClientWidth = 333
+    Items.Strings = (
+      'Добрый'
+      'Разбирается в логарифмах'
+      'Шарит в Информатике и Алгебре'
+    )
+    OnClick = RadioGroup1Click
+    TabOrder = 0
+  end
+  object GroupBox1: TGroupBox
+    Left = 792
+    Height = 344
+    Top = 296
+    Width = 337
+    Caption = 'Правила'
+    ClientHeight = 324
+    ClientWidth = 333
+    TabOrder = 1
+    object Memo1: TMemo
+      Left = 8
+      Height = 314
+      Top = 0
+      Width = 318
+      Lines.Strings = (
+        'Memo1'
+      )
+      OnChange = Memo1Change
+      TabOrder = 0
+    end
   end
 end

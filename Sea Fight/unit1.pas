@@ -13,6 +13,7 @@ type
   { TForm1 }
 
   TForm1 = class(TForm)
+    GroupBox1: TGroupBox;
     Label1: TLabel;
     Label10: TLabel;
     Label11: TLabel;
@@ -42,7 +43,12 @@ type
     Label7: TLabel;
     Label8: TLabel;
     Label9: TLabel;
-    Panel1: TPanel;
+    Memo1: TMemo;
+    RadioGroup1: TRadioGroup;
+    procedure Button1Click(Sender: TObject);
+    procedure Memo1Change(Sender: TObject);
+    procedure Panel1Click(Sender: TObject);
+    procedure RadioGroup1Click(Sender: TObject);
   private
     { private declarations }
   public
@@ -55,6 +61,28 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TForm1 }
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  close;
+end;
+
+procedure TForm1.Memo1Change(Sender: TObject);
+begin
+  Memo1.Text:='Правила просты: Сначала выбираешь сложность, а затем расставляешь кораблики, жмакашь кнопку "Начать" и наслаждаешься собственным умением сливать катки.
+end;
+
+procedure TForm1.Panel1Click(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.RadioGroup1Click(Sender: TObject);
+begin
+
+end;
 
 end.
 
