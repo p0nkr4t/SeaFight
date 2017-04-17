@@ -13,6 +13,8 @@ type
   { TForm1 }
 
   TForm1 = class(TForm)
+    Button1: TButton;
+    Button2: TButton;
     GroupBox1: TGroupBox;
     Label1: TLabel;
     Label10: TLabel;
@@ -46,7 +48,7 @@ type
     Memo1: TMemo;
     RadioGroup1: TRadioGroup;
     procedure Button1Click(Sender: TObject);
-    procedure Memo1Change(Sender: TObject);
+    procedure Memo1Enter(Sender: TObject);
     procedure Panel1Click(Sender: TObject);
     procedure RadioGroup1Click(Sender: TObject);
   private
@@ -69,9 +71,9 @@ begin
   close;
 end;
 
-procedure TForm1.Memo1Change(Sender: TObject);
+procedure TForm1.Memo1Enter(Sender: TObject);
 begin
-  Memo1.Text:='Правила просты: Сначала выбираешь сложность, а затем расставляешь кораблики, жмакашь кнопку "Начать" и наслаждаешься собственным умением сливать катки.
+  Memo1.Text:='Правила просты: Сначала выбираешь сложность, а затем расставляешь кораблики, жмакаешь кнопку "Начать" и наслаждаешься собственным умением сливать катки.';
 end;
 
 procedure TForm1.Panel1Click(Sender: TObject);
