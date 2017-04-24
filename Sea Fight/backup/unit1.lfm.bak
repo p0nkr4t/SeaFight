@@ -1,249 +1,17 @@
 object Form1: TForm1
-  Left = 538
-  Height = 720
-  Top = 152
+  Left = 286
+  Height = 355
+  Top = 131
   Width = 1132
   Caption = 'Form1'
-  ClientHeight = 720
+  ClientHeight = 355
   ClientWidth = 1132
   LCLVersion = '1.6.4.0'
-  object Label1: TLabel
-    Left = 10
-    Height = 15
-    Top = 10
-    Width = 34
-    Caption = 'Label1'
-    ParentColor = False
-  end
-  object Label2: TLabel
-    Left = 312
-    Height = 15
-    Top = 224
-    Width = 34
-    Caption = 'Label2'
-    ParentColor = False
-  end
-  object Label3: TLabel
-    Left = 272
-    Height = 15
-    Top = 248
-    Width = 34
-    Caption = 'Label3'
-    ParentColor = False
-  end
-  object Label4: TLabel
-    Left = 32
-    Height = 15
-    Top = 264
-    Width = 34
-    Caption = 'Label4'
-    ParentColor = False
-  end
-  object Label5: TLabel
-    Left = 112
-    Height = 15
-    Top = 264
-    Width = 34
-    Caption = 'Label5'
-    ParentColor = False
-  end
-  object Label6: TLabel
-    Left = 192
-    Height = 15
-    Top = 272
-    Width = 34
-    Caption = 'Label6'
-    ParentColor = False
-  end
-  object Label7: TLabel
-    Left = 248
-    Height = 15
-    Top = 208
-    Width = 34
-    Caption = 'Label7'
-    ParentColor = False
-  end
-  object Label8: TLabel
-    Left = 328
-    Height = 15
-    Top = 192
-    Width = 34
-    Caption = 'Label8'
-    ParentColor = False
-  end
-  object Label9: TLabel
-    Left = 312
-    Height = 15
-    Top = 112
-    Width = 34
-    Caption = 'Label9'
-    ParentColor = False
-  end
-  object Label10: TLabel
-    Left = 280
-    Height = 15
-    Top = 32
-    Width = 40
-    Caption = 'Label10'
-    ParentColor = False
-  end
-  object Label11: TLabel
-    Left = 8
-    Height = 15
-    Top = 160
-    Width = 40
-    Caption = 'Label11'
-    ParentColor = False
-  end
-  object Label12: TLabel
-    Left = 72
-    Height = 15
-    Top = 152
-    Width = 40
-    Caption = 'Label12'
-    ParentColor = False
-  end
-  object Label13: TLabel
-    Left = 168
-    Height = 15
-    Top = 160
-    Width = 40
-    Caption = 'Label13'
-    ParentColor = False
-  end
-  object Label14: TLabel
-    Left = 248
-    Height = 15
-    Top = 104
-    Width = 40
-    Caption = 'Label14'
-    ParentColor = False
-  end
-  object Label15: TLabel
-    Left = 152
-    Height = 15
-    Top = 64
-    Width = 40
-    Caption = 'Label15'
-    ParentColor = False
-  end
-  object Label16: TLabel
-    Left = 72
-    Height = 15
-    Top = 88
-    Width = 40
-    Caption = 'Label16'
-    ParentColor = False
-  end
-  object Label17: TLabel
-    Left = 16
-    Height = 15
-    Top = 200
-    Width = 40
-    Caption = 'Label17'
-    ParentColor = False
-  end
-  object Label18: TLabel
-    Left = 88
-    Height = 15
-    Top = 200
-    Width = 40
-    Caption = 'Label18'
-    ParentColor = False
-  end
-  object Label19: TLabel
-    Left = 272
-    Height = 15
-    Top = 168
-    Width = 40
-    Caption = 'Label19'
-    ParentColor = False
-  end
-  object Label20: TLabel
-    Left = 232
-    Height = 15
-    Top = 10
-    Width = 40
-    Caption = 'Label20'
-    ParentColor = False
-  end
-  object Label21: TLabel
-    Left = 256
-    Height = 15
-    Top = 56
-    Width = 40
-    Caption = 'Label21'
-    ParentColor = False
-  end
-  object Label22: TLabel
-    Left = 192
-    Height = 15
-    Top = 104
-    Width = 40
-    Caption = 'Label22'
-    ParentColor = False
-  end
-  object Label23: TLabel
-    Left = 24
-    Height = 15
-    Top = 128
-    Width = 40
-    Caption = 'Label23'
-    ParentColor = False
-  end
-  object Label24: TLabel
-    Left = 112
-    Height = 15
-    Top = 120
-    Width = 40
-    Caption = 'Label24'
-    ParentColor = False
-  end
-  object Label25: TLabel
-    Left = 144
-    Height = 15
-    Top = 32
-    Width = 40
-    Caption = 'Label25'
-    ParentColor = False
-  end
-  object Label26: TLabel
-    Left = 88
-    Height = 15
-    Top = 48
-    Width = 40
-    Caption = 'Label26'
-    ParentColor = False
-  end
-  object Label27: TLabel
-    Left = 88
-    Height = 15
-    Top = 10
-    Width = 40
-    Caption = 'Label27'
-    ParentColor = False
-  end
-  object Label28: TLabel
-    Left = 176
-    Height = 15
-    Top = 192
-    Width = 40
-    Caption = 'Label28'
-    ParentColor = False
-  end
-  object Label29: TLabel
-    Left = 16
-    Height = 15
-    Top = 56
-    Width = 40
-    Caption = 'Label29'
-    ParentColor = False
-  end
   object RadioGroup1: TRadioGroup
-    Left = 792
-    Height = 289
+    Left = 795
+    Height = 169
     Top = 0
-    Width = 337
+    Width = 334
     AutoFill = True
     Caption = 'Сложность ИИ'
     ChildSizing.LeftRightSpacing = 6
@@ -253,8 +21,8 @@ object Form1: TForm1
     ChildSizing.ShrinkVertical = crsScaleChilds
     ChildSizing.Layout = cclLeftToRightThenTopToBottom
     ChildSizing.ControlsPerLine = 1
-    ClientHeight = 269
-    ClientWidth = 333
+    ClientHeight = 149
+    ClientWidth = 330
     Items.Strings = (
       'Добрый'
       'Разбирается в логарифмах'
@@ -264,13 +32,13 @@ object Form1: TForm1
     TabOrder = 0
   end
   object GroupBox1: TGroupBox
-    Left = 792
+    Left = 795
     Height = 136
-    Top = 296
-    Width = 337
+    Top = 168
+    Width = 334
     Caption = 'Правила'
     ClientHeight = 116
-    ClientWidth = 333
+    ClientWidth = 330
     TabOrder = 1
     object Memo1: TMemo
       Left = 8
@@ -288,18 +56,2018 @@ object Form1: TForm1
   object Button1: TButton
     Left = 1032
     Height = 25
-    Top = 440
+    Top = 320
     Width = 75
     Caption = 'RAGEQUIT'
     OnClick = Button1Click
     TabOrder = 2
   end
   object Button2: TButton
-    Left = 824
+    Left = 816
     Height = 25
-    Top = 440
+    Top = 320
     Width = 75
     Caption = 'НАЧАТЬ'
     TabOrder = 3
+  end
+  object Panel1: TPanel
+    Left = 48
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel1'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 4
+  end
+  object Panel2: TPanel
+    Left = 80
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel2'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 5
+  end
+  object Panel3: TPanel
+    Left = 112
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel3'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 6
+  end
+  object Panel4: TPanel
+    Left = 144
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel4'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 7
+  end
+  object Panel5: TPanel
+    Left = 176
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel5'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 8
+  end
+  object Panel6: TPanel
+    Left = 208
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel6'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 9
+  end
+  object Panel7: TPanel
+    Left = 240
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel7'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 10
+  end
+  object Panel8: TPanel
+    Left = 272
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel8'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 11
+  end
+  object Panel9: TPanel
+    Left = 304
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel9'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 12
+  end
+  object Panel10: TPanel
+    Left = 336
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel10'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 13
+  end
+  object Panel11: TPanel
+    Left = 48
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel11'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 14
+  end
+  object Panel21: TPanel
+    Left = 48
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel21'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 15
+  end
+  object Panel31: TPanel
+    Left = 48
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel31'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 16
+  end
+  object Panel41: TPanel
+    Left = 48
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel41'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 17
+  end
+  object Panel51: TPanel
+    Left = 48
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel51'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 18
+  end
+  object Panel61: TPanel
+    Left = 48
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel61'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 19
+  end
+  object Panel62: TPanel
+    Left = 80
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel62'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 20
+  end
+  object Panel63: TPanel
+    Left = 112
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel63'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 21
+  end
+  object Panel64: TPanel
+    Left = 144
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel64'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 22
+  end
+  object Panel65: TPanel
+    Left = 176
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel65'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 23
+  end
+  object Panel66: TPanel
+    Left = 208
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel66'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 24
+  end
+  object Panel67: TPanel
+    Left = 240
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel67'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 25
+  end
+  object Panel68: TPanel
+    Left = 272
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel68'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 26
+  end
+  object Panel69: TPanel
+    Left = 304
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel69'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 27
+  end
+  object Panel70: TPanel
+    Left = 336
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel70'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 28
+  end
+  object Panel71: TPanel
+    Left = 48
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel71'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 29
+  end
+  object Panel72: TPanel
+    Left = 80
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel72'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 30
+  end
+  object Panel73: TPanel
+    Left = 112
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel73'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 31
+  end
+  object Panel74: TPanel
+    Left = 144
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel74'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 32
+  end
+  object Panel75: TPanel
+    Left = 176
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel75'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 33
+  end
+  object Panel76: TPanel
+    Left = 208
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel76'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 34
+  end
+  object Panel77: TPanel
+    Left = 240
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel77'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 35
+  end
+  object Panel78: TPanel
+    Left = 272
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel78'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 36
+  end
+  object Panel79: TPanel
+    Left = 304
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel79'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 37
+  end
+  object Panel80: TPanel
+    Left = 336
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel80'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 38
+  end
+  object Panel81: TPanel
+    Left = 48
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel81'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 39
+  end
+  object Panel82: TPanel
+    Left = 80
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel82'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 40
+  end
+  object Panel83: TPanel
+    Left = 112
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel83'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 41
+  end
+  object Panel84: TPanel
+    Left = 144
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel84'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 42
+  end
+  object Panel85: TPanel
+    Left = 176
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel85'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 43
+  end
+  object Panel86: TPanel
+    Left = 208
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel86'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 44
+  end
+  object Panel87: TPanel
+    Left = 240
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel87'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 45
+  end
+  object Panel88: TPanel
+    Left = 272
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel88'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 46
+  end
+  object Panel89: TPanel
+    Left = 304
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel89'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 47
+  end
+  object Panel90: TPanel
+    Left = 336
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel90'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 48
+  end
+  object Panel91: TPanel
+    Left = 48
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel91'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 49
+  end
+  object Panel92: TPanel
+    Left = 80
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel92'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 50
+  end
+  object Panel93: TPanel
+    Left = 112
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel93'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 51
+  end
+  object Panel94: TPanel
+    Left = 144
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel94'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 52
+  end
+  object Panel95: TPanel
+    Left = 176
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel95'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 53
+  end
+  object Panel96: TPanel
+    Left = 208
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel96'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 54
+  end
+  object Panel97: TPanel
+    Left = 240
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel97'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 55
+  end
+  object Panel98: TPanel
+    Left = 272
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel98'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 56
+  end
+  object Panel99: TPanel
+    Left = 304
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel99'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 57
+  end
+  object Panel100: TPanel
+    Left = 336
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel100'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 58
+  end
+  object Panel101: TPanel
+    Left = 80
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel101'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 59
+  end
+  object Panel102: TPanel
+    Left = 112
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel102'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 60
+  end
+  object Panel103: TPanel
+    Left = 144
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel103'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 61
+  end
+  object Panel104: TPanel
+    Left = 176
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel104'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 62
+  end
+  object Panel105: TPanel
+    Left = 208
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel105'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 63
+  end
+  object Panel106: TPanel
+    Left = 240
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel106'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 64
+  end
+  object Panel107: TPanel
+    Left = 272
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel107'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 65
+  end
+  object Panel108: TPanel
+    Left = 304
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel108'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 66
+  end
+  object Panel109: TPanel
+    Left = 336
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel109'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 67
+  end
+  object Panel110: TPanel
+    Left = 80
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel110'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 68
+  end
+  object Panel111: TPanel
+    Left = 112
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel111'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 69
+  end
+  object Panel112: TPanel
+    Left = 144
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel112'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 70
+  end
+  object Panel113: TPanel
+    Left = 176
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel113'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 71
+  end
+  object Panel114: TPanel
+    Left = 208
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel114'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 72
+  end
+  object Panel115: TPanel
+    Left = 240
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel115'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 73
+  end
+  object Panel116: TPanel
+    Left = 272
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel116'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 74
+  end
+  object Panel117: TPanel
+    Left = 304
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel117'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 75
+  end
+  object Panel118: TPanel
+    Left = 336
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel118'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 76
+  end
+  object Panel119: TPanel
+    Left = 80
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel119'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 77
+  end
+  object Panel120: TPanel
+    Left = 112
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel120'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 78
+  end
+  object Panel121: TPanel
+    Left = 144
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel121'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 79
+  end
+  object Panel122: TPanel
+    Left = 176
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel122'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 80
+  end
+  object Panel123: TPanel
+    Left = 208
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel123'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 81
+  end
+  object Panel124: TPanel
+    Left = 240
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel124'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 82
+  end
+  object Panel125: TPanel
+    Left = 272
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel125'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 83
+  end
+  object Panel126: TPanel
+    Left = 304
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel126'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 84
+  end
+  object Panel127: TPanel
+    Left = 336
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel127'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 85
+  end
+  object Panel128: TPanel
+    Left = 80
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel128'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 86
+  end
+  object Panel129: TPanel
+    Left = 112
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel129'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 87
+  end
+  object Panel130: TPanel
+    Left = 144
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel130'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 88
+  end
+  object Panel131: TPanel
+    Left = 176
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel131'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 89
+  end
+  object Panel132: TPanel
+    Left = 208
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel132'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 90
+  end
+  object Panel133: TPanel
+    Left = 240
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel133'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 91
+  end
+  object Panel134: TPanel
+    Left = 272
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel134'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 92
+  end
+  object Panel135: TPanel
+    Left = 304
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel135'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 93
+  end
+  object Panel136: TPanel
+    Left = 336
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel136'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 94
+  end
+  object Panel12: TPanel
+    Left = 80
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel12'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 95
+  end
+  object Panel13: TPanel
+    Left = 112
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel13'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 96
+  end
+  object Panel14: TPanel
+    Left = 144
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel14'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 97
+  end
+  object Panel15: TPanel
+    Left = 176
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel15'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 98
+  end
+  object Panel16: TPanel
+    Left = 208
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel16'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 99
+  end
+  object Panel17: TPanel
+    Left = 240
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel17'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 100
+  end
+  object Panel18: TPanel
+    Left = 272
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel18'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 101
+  end
+  object Panel19: TPanel
+    Left = 304
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel19'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 102
+  end
+  object Panel20: TPanel
+    Left = 336
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel20'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 103
+  end
+  object Panel22: TPanel
+    Left = 432
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel22'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 104
+  end
+  object Panel23: TPanel
+    Left = 464
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel23'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 105
+  end
+  object Panel24: TPanel
+    Left = 496
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel24'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 106
+  end
+  object Panel25: TPanel
+    Left = 528
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel25'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 107
+  end
+  object Panel26: TPanel
+    Left = 560
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel26'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 108
+  end
+  object Panel27: TPanel
+    Left = 592
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel27'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 109
+  end
+  object Panel28: TPanel
+    Left = 624
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel28'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 110
+  end
+  object Panel29: TPanel
+    Left = 656
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel29'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 111
+  end
+  object Panel30: TPanel
+    Left = 688
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel30'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 112
+  end
+  object Panel32: TPanel
+    Left = 720
+    Height = 30
+    Top = 40
+    Width = 30
+    Caption = 'Panel32'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 113
+  end
+  object Panel33: TPanel
+    Left = 432
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel33'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 114
+  end
+  object Panel34: TPanel
+    Left = 432
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel34'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 115
+  end
+  object Panel35: TPanel
+    Left = 432
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel35'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 116
+  end
+  object Panel42: TPanel
+    Left = 432
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel42'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 117
+  end
+  object Panel52: TPanel
+    Left = 432
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel52'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 118
+  end
+  object Panel137: TPanel
+    Left = 432
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel137'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 119
+  end
+  object Panel138: TPanel
+    Left = 464
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel138'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 120
+  end
+  object Panel139: TPanel
+    Left = 496
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel139'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 121
+  end
+  object Panel140: TPanel
+    Left = 528
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel140'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 122
+  end
+  object Panel141: TPanel
+    Left = 560
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel141'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 123
+  end
+  object Panel142: TPanel
+    Left = 592
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel142'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 124
+  end
+  object Panel143: TPanel
+    Left = 624
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel143'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 125
+  end
+  object Panel144: TPanel
+    Left = 656
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel144'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 126
+  end
+  object Panel145: TPanel
+    Left = 688
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel145'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 127
+  end
+  object Panel146: TPanel
+    Left = 720
+    Height = 30
+    Top = 208
+    Width = 30
+    Caption = 'Panel146'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 128
+  end
+  object Panel147: TPanel
+    Left = 432
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel147'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 129
+  end
+  object Panel148: TPanel
+    Left = 464
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel148'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 130
+  end
+  object Panel149: TPanel
+    Left = 496
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel149'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 131
+  end
+  object Panel150: TPanel
+    Left = 528
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel150'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 132
+  end
+  object Panel151: TPanel
+    Left = 560
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel151'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 133
+  end
+  object Panel152: TPanel
+    Left = 592
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel152'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 134
+  end
+  object Panel153: TPanel
+    Left = 624
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel153'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 135
+  end
+  object Panel154: TPanel
+    Left = 656
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel154'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 136
+  end
+  object Panel155: TPanel
+    Left = 688
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel155'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 137
+  end
+  object Panel156: TPanel
+    Left = 720
+    Height = 30
+    Top = 236
+    Width = 30
+    Caption = 'Panel156'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 138
+  end
+  object Panel157: TPanel
+    Left = 432
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel157'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 139
+  end
+  object Panel158: TPanel
+    Left = 464
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel158'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 140
+  end
+  object Panel159: TPanel
+    Left = 496
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel159'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 141
+  end
+  object Panel160: TPanel
+    Left = 528
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel160'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 142
+  end
+  object Panel161: TPanel
+    Left = 560
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel161'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 143
+  end
+  object Panel162: TPanel
+    Left = 592
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel162'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 144
+  end
+  object Panel163: TPanel
+    Left = 624
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel163'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 145
+  end
+  object Panel164: TPanel
+    Left = 656
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel164'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 146
+  end
+  object Panel165: TPanel
+    Left = 688
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel165'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 147
+  end
+  object Panel166: TPanel
+    Left = 720
+    Height = 30
+    Top = 264
+    Width = 30
+    Caption = 'Panel166'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 148
+  end
+  object Panel167: TPanel
+    Left = 432
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel167'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 149
+  end
+  object Panel168: TPanel
+    Left = 464
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel168'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 150
+  end
+  object Panel169: TPanel
+    Left = 496
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel169'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 151
+  end
+  object Panel170: TPanel
+    Left = 528
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel170'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 152
+  end
+  object Panel171: TPanel
+    Left = 560
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel171'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 153
+  end
+  object Panel172: TPanel
+    Left = 592
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel172'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 154
+  end
+  object Panel173: TPanel
+    Left = 624
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel173'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 155
+  end
+  object Panel174: TPanel
+    Left = 656
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel174'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 156
+  end
+  object Panel175: TPanel
+    Left = 688
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel175'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 157
+  end
+  object Panel176: TPanel
+    Left = 720
+    Height = 30
+    Top = 292
+    Width = 30
+    Caption = 'Panel176'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 158
+  end
+  object Panel177: TPanel
+    Left = 464
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel177'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 159
+  end
+  object Panel178: TPanel
+    Left = 496
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel178'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 160
+  end
+  object Panel179: TPanel
+    Left = 528
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel179'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 161
+  end
+  object Panel180: TPanel
+    Left = 560
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel180'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 162
+  end
+  object Panel181: TPanel
+    Left = 592
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel181'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 163
+  end
+  object Panel182: TPanel
+    Left = 624
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel182'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 164
+  end
+  object Panel183: TPanel
+    Left = 656
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel183'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 165
+  end
+  object Panel184: TPanel
+    Left = 688
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel184'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 166
+  end
+  object Panel185: TPanel
+    Left = 720
+    Height = 30
+    Top = 96
+    Width = 30
+    Caption = 'Panel185'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 167
+  end
+  object Panel186: TPanel
+    Left = 464
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel186'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 168
+  end
+  object Panel187: TPanel
+    Left = 496
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel187'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 169
+  end
+  object Panel188: TPanel
+    Left = 528
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel188'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 170
+  end
+  object Panel189: TPanel
+    Left = 560
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel189'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 171
+  end
+  object Panel190: TPanel
+    Left = 592
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel190'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 172
+  end
+  object Panel191: TPanel
+    Left = 624
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel191'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 173
+  end
+  object Panel192: TPanel
+    Left = 656
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel192'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 174
+  end
+  object Panel193: TPanel
+    Left = 688
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel193'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 175
+  end
+  object Panel194: TPanel
+    Left = 720
+    Height = 30
+    Top = 124
+    Width = 30
+    Caption = 'Panel194'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 176
+  end
+  object Panel195: TPanel
+    Left = 464
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel195'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 177
+  end
+  object Panel196: TPanel
+    Left = 496
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel196'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 178
+  end
+  object Panel197: TPanel
+    Left = 528
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel197'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 179
+  end
+  object Panel198: TPanel
+    Left = 560
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel198'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 180
+  end
+  object Panel199: TPanel
+    Left = 592
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel199'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 181
+  end
+  object Panel200: TPanel
+    Left = 624
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel200'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 182
+  end
+  object Panel201: TPanel
+    Left = 656
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel201'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 183
+  end
+  object Panel202: TPanel
+    Left = 688
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel202'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 184
+  end
+  object Panel203: TPanel
+    Left = 720
+    Height = 30
+    Top = 152
+    Width = 30
+    Caption = 'Panel203'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 185
+  end
+  object Panel204: TPanel
+    Left = 464
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel204'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 186
+  end
+  object Panel205: TPanel
+    Left = 496
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel205'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 187
+  end
+  object Panel206: TPanel
+    Left = 528
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel206'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 188
+  end
+  object Panel207: TPanel
+    Left = 560
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel207'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 189
+  end
+  object Panel208: TPanel
+    Left = 592
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel208'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 190
+  end
+  object Panel209: TPanel
+    Left = 624
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel209'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 191
+  end
+  object Panel210: TPanel
+    Left = 656
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel210'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 192
+  end
+  object Panel211: TPanel
+    Left = 688
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel211'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 193
+  end
+  object Panel212: TPanel
+    Left = 720
+    Height = 30
+    Top = 180
+    Width = 30
+    Caption = 'Panel212'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 194
+  end
+  object Panel36: TPanel
+    Left = 464
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel36'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 195
+  end
+  object Panel37: TPanel
+    Left = 496
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel37'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 196
+  end
+  object Panel38: TPanel
+    Left = 528
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel38'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 197
+  end
+  object Panel39: TPanel
+    Left = 560
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel39'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 198
+  end
+  object Panel40: TPanel
+    Left = 592
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel40'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 199
+  end
+  object Panel43: TPanel
+    Left = 624
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel43'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 200
+  end
+  object Panel44: TPanel
+    Left = 656
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel44'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 201
+  end
+  object Panel45: TPanel
+    Left = 688
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel45'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 202
+  end
+  object Panel46: TPanel
+    Left = 720
+    Height = 30
+    Top = 68
+    Width = 30
+    Caption = 'Panel46'
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 203
   end
 end
