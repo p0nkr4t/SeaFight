@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 249
+  Left = 238
   Height = 361
-  Top = 138
+  Top = 85
   Width = 1132
   Caption = 'Form1'
   ClientHeight = 361
@@ -68,6 +68,7 @@ object Form1: TForm1
     Top = 320
     Width = 75
     Caption = 'НАЧАТЬ'
+    OnClick = Button2Click
     TabOrder = 3
   end
   object Panel1: TPanel
@@ -93,7 +94,7 @@ object Form1: TForm1
   object Panel3: TPanel
     Left = 96
     Height = 30
-    Top = 64
+    Top = 32
     Width = 30
     Color = clSilver
     ParentColor = False
@@ -103,7 +104,7 @@ object Form1: TForm1
   object Panel4: TPanel
     Left = 128
     Height = 30
-    Top = 64
+    Top = 32
     Width = 30
     Color = clSilver
     ParentColor = False
@@ -175,7 +176,7 @@ object Form1: TForm1
     Height = 30
     Top = 64
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 14
     OnClick = Panel1Click
@@ -193,9 +194,9 @@ object Form1: TForm1
   object Panel13: TPanel
     Left = 96
     Height = 30
-    Top = 32
+    Top = 64
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 16
     OnClick = Panel1Click
@@ -203,7 +204,7 @@ object Form1: TForm1
   object Panel14: TPanel
     Left = 128
     Height = 30
-    Top = 32
+    Top = 64
     Width = 30
     Color = clSilver
     ParentColor = False
@@ -275,7 +276,7 @@ object Form1: TForm1
     Height = 30
     Top = 96
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 24
     OnClick = Panel1Click
@@ -295,7 +296,7 @@ object Form1: TForm1
     Height = 30
     Top = 96
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 26
     OnClick = Panel1Click
@@ -315,7 +316,7 @@ object Form1: TForm1
     Height = 30
     Top = 96
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 28
     OnClick = Panel1Click
@@ -325,7 +326,7 @@ object Form1: TForm1
     Height = 30
     Top = 96
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 29
     OnClick = Panel1Click
@@ -335,7 +336,7 @@ object Form1: TForm1
     Height = 30
     Top = 96
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 30
     OnClick = Panel1Click
@@ -355,7 +356,7 @@ object Form1: TForm1
     Height = 30
     Top = 96
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 32
     OnClick = Panel1Click
@@ -375,7 +376,7 @@ object Form1: TForm1
     Height = 30
     Top = 128
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 34
     OnClick = Panel1Click
@@ -535,7 +536,7 @@ object Form1: TForm1
     Height = 30
     Top = 160
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 50
     OnClick = Panel1Click
@@ -595,7 +596,7 @@ object Form1: TForm1
     Height = 30
     Top = 192
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 56
     OnClick = Panel1Click
@@ -605,7 +606,7 @@ object Form1: TForm1
     Height = 30
     Top = 192
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 57
     OnClick = Panel1Click
@@ -635,7 +636,7 @@ object Form1: TForm1
     Height = 30
     Top = 192
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 60
     OnClick = Panel1Click
@@ -675,7 +676,7 @@ object Form1: TForm1
     Height = 30
     Top = 224
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 64
     OnClick = Panel1Click
@@ -735,7 +736,7 @@ object Form1: TForm1
     Height = 30
     Top = 224
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 70
     OnClick = Panel1Click
@@ -775,7 +776,7 @@ object Form1: TForm1
     Height = 30
     Top = 256
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 74
     OnClick = Panel1Click
@@ -835,7 +836,7 @@ object Form1: TForm1
     Height = 30
     Top = 256
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 80
     OnClick = Panel1Click
@@ -975,7 +976,7 @@ object Form1: TForm1
     Height = 30
     Top = 320
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 94
     OnClick = Panel1Click
@@ -1005,7 +1006,7 @@ object Form1: TForm1
     Height = 30
     Top = 320
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 97
     OnClick = Panel1Click
@@ -1035,7 +1036,7 @@ object Form1: TForm1
     Height = 30
     Top = 320
     Width = 30
-    Color = clSilver
+    Color = clGray
     ParentColor = False
     TabOrder = 100
     OnClick = Panel1Click
@@ -2629,5 +2630,13 @@ object Form1: TForm1
     Font.Quality = fqDraft
     ParentColor = False
     ParentFont = False
+  end
+  object Button3: TButton
+    Left = 360
+    Height = 25
+    Top = 152
+    Width = 48
+    Caption = 'Change'
+    TabOrder = 204
   end
 end
