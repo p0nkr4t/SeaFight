@@ -1,11 +1,12 @@
 object Form1: TForm1
-  Left = 238
+  Left = 402
   Height = 361
-  Top = 85
-  Width = 1132
+  Top = 119
+  Width = 1134
   Caption = 'Form1'
   ClientHeight = 361
-  ClientWidth = 1132
+  ClientWidth = 1134
+  OnCreate = FormCreate
   LCLVersion = '1.6.4.0'
   object RadioGroup1: TRadioGroup
     Left = 795
@@ -79,7 +80,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 4
-    OnClick = Panel1Click
   end
   object Panel2: TPanel
     Left = 64
@@ -89,7 +89,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 5
-    OnClick = Panel1Click
   end
   object Panel3: TPanel
     Left = 96
@@ -99,7 +98,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 6
-    OnClick = Panel1Click
   end
   object Panel4: TPanel
     Left = 128
@@ -109,7 +107,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 7
-    OnClick = Panel1Click
   end
   object Panel5: TPanel
     Left = 160
@@ -119,7 +116,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 8
-    OnClick = Panel1Click
   end
   object Panel6: TPanel
     Left = 192
@@ -129,7 +125,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 9
-    OnClick = Panel1Click
   end
   object Panel7: TPanel
     Left = 224
@@ -139,7 +134,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 10
-    OnClick = Panel1Click
   end
   object Panel8: TPanel
     Left = 256
@@ -149,7 +143,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 11
-    OnClick = Panel1Click
   end
   object Panel9: TPanel
     Left = 288
@@ -159,7 +152,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 12
-    OnClick = Panel1Click
   end
   object Panel10: TPanel
     Left = 320
@@ -169,7 +161,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 13
-    OnClick = Panel1Click
   end
   object Panel11: TPanel
     Left = 32
@@ -179,7 +170,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 14
-    OnClick = Panel1Click
   end
   object Panel12: TPanel
     Left = 64
@@ -189,7 +179,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 15
-    OnClick = Panel1Click
   end
   object Panel13: TPanel
     Left = 96
@@ -199,7 +188,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 16
-    OnClick = Panel1Click
   end
   object Panel14: TPanel
     Left = 128
@@ -209,7 +197,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 17
-    OnClick = Panel1Click
   end
   object Panel15: TPanel
     Left = 160
@@ -219,7 +206,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 18
-    OnClick = Panel1Click
   end
   object Panel16: TPanel
     Left = 192
@@ -229,7 +215,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 19
-    OnClick = Panel1Click
   end
   object Panel17: TPanel
     Left = 224
@@ -239,7 +224,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 20
-    OnClick = Panel1Click
   end
   object Panel18: TPanel
     Left = 256
@@ -249,7 +233,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 21
-    OnClick = Panel1Click
   end
   object Panel19: TPanel
     Left = 288
@@ -259,7 +242,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 22
-    OnClick = Panel1Click
   end
   object Panel20: TPanel
     Left = 320
@@ -269,7 +251,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 23
-    OnClick = Panel1Click
   end
   object Panel21: TPanel
     Left = 32
@@ -279,7 +260,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 24
-    OnClick = Panel1Click
   end
   object Panel22: TPanel
     Left = 64
@@ -289,7 +269,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 25
-    OnClick = Panel1Click
   end
   object Panel23: TPanel
     Left = 96
@@ -299,7 +278,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 26
-    OnClick = Panel1Click
   end
   object Panel24: TPanel
     Left = 128
@@ -309,7 +287,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 27
-    OnClick = Panel1Click
   end
   object Panel25: TPanel
     Left = 160
@@ -319,7 +296,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 28
-    OnClick = Panel1Click
   end
   object Panel26: TPanel
     Left = 192
@@ -329,7 +305,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 29
-    OnClick = Panel1Click
   end
   object Panel27: TPanel
     Left = 224
@@ -339,7 +314,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 30
-    OnClick = Panel1Click
   end
   object Panel28: TPanel
     Left = 256
@@ -349,7 +323,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 31
-    OnClick = Panel1Click
   end
   object Panel29: TPanel
     Left = 288
@@ -359,7 +332,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 32
-    OnClick = Panel1Click
   end
   object Panel30: TPanel
     Left = 320
@@ -369,7 +341,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 33
-    OnClick = Panel1Click
   end
   object Panel31: TPanel
     Left = 32
@@ -379,7 +350,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 34
-    OnClick = Panel1Click
   end
   object Panel32: TPanel
     Left = 64
@@ -389,7 +359,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 35
-    OnClick = Panel1Click
   end
   object Panel33: TPanel
     Left = 96
@@ -399,7 +368,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 36
-    OnClick = Panel1Click
   end
   object Panel34: TPanel
     Left = 128
@@ -409,7 +377,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 37
-    OnClick = Panel1Click
   end
   object Panel35: TPanel
     Left = 160
@@ -419,7 +386,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 38
-    OnClick = Panel1Click
   end
   object Panel36: TPanel
     Left = 192
@@ -429,7 +395,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 39
-    OnClick = Panel1Click
   end
   object Panel37: TPanel
     Left = 224
@@ -439,7 +404,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 40
-    OnClick = Panel1Click
   end
   object Panel38: TPanel
     Left = 256
@@ -449,7 +413,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 41
-    OnClick = Panel1Click
+    OnClick = Panel38Click
   end
   object Panel39: TPanel
     Left = 288
@@ -459,7 +423,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 42
-    OnClick = Panel1Click
   end
   object Panel40: TPanel
     Left = 320
@@ -469,7 +432,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 43
-    OnClick = Panel1Click
   end
   object Panel41: TPanel
     Left = 32
@@ -479,7 +441,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 44
-    OnClick = Panel1Click
   end
   object Panel42: TPanel
     Left = 64
@@ -489,7 +450,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 45
-    OnClick = Panel1Click
   end
   object Panel43: TPanel
     Left = 96
@@ -499,7 +459,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 46
-    OnClick = Panel1Click
   end
   object Panel44: TPanel
     Left = 128
@@ -509,7 +468,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 47
-    OnClick = Panel1Click
   end
   object Panel45: TPanel
     Left = 160
@@ -519,7 +477,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 48
-    OnClick = Panel1Click
   end
   object Panel46: TPanel
     Left = 192
@@ -529,7 +486,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 49
-    OnClick = Panel1Click
   end
   object Panel47: TPanel
     Left = 224
@@ -539,7 +495,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 50
-    OnClick = Panel1Click
   end
   object Panel48: TPanel
     Left = 256
@@ -549,7 +504,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 51
-    OnClick = Panel1Click
   end
   object Panel49: TPanel
     Left = 288
@@ -559,7 +513,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 52
-    OnClick = Panel1Click
   end
   object Panel50: TPanel
     Left = 320
@@ -569,7 +522,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 53
-    OnClick = Panel1Click
   end
   object Panel51: TPanel
     Left = 32
@@ -579,7 +531,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 54
-    OnClick = Panel1Click
   end
   object Panel52: TPanel
     Left = 64
@@ -589,7 +540,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 55
-    OnClick = Panel1Click
   end
   object Panel53: TPanel
     Left = 96
@@ -599,7 +549,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 56
-    OnClick = Panel1Click
   end
   object Panel54: TPanel
     Left = 128
@@ -609,7 +558,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 57
-    OnClick = Panel1Click
   end
   object Panel55: TPanel
     Left = 160
@@ -619,7 +567,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 58
-    OnClick = Panel1Click
   end
   object Panel56: TPanel
     Left = 192
@@ -629,7 +576,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 59
-    OnClick = Panel1Click
   end
   object Panel57: TPanel
     Left = 224
@@ -639,7 +585,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 60
-    OnClick = Panel1Click
   end
   object Panel58: TPanel
     Left = 256
@@ -649,7 +594,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 61
-    OnClick = Panel1Click
   end
   object Panel59: TPanel
     Left = 288
@@ -659,7 +603,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 62
-    OnClick = Panel1Click
   end
   object Panel60: TPanel
     Left = 320
@@ -669,7 +612,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 63
-    OnClick = Panel1Click
   end
   object Panel61: TPanel
     Left = 32
@@ -679,7 +621,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 64
-    OnClick = Panel1Click
   end
   object Panel62: TPanel
     Left = 64
@@ -689,7 +630,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 65
-    OnClick = Panel1Click
   end
   object Panel63: TPanel
     Left = 96
@@ -699,7 +639,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 66
-    OnClick = Panel1Click
   end
   object Panel64: TPanel
     Left = 128
@@ -709,7 +648,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 67
-    OnClick = Panel1Click
   end
   object Panel65: TPanel
     Left = 160
@@ -719,7 +657,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 68
-    OnClick = Panel1Click
   end
   object Panel66: TPanel
     Left = 192
@@ -729,7 +666,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 69
-    OnClick = Panel1Click
   end
   object Panel67: TPanel
     Left = 224
@@ -739,7 +675,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 70
-    OnClick = Panel1Click
   end
   object Panel68: TPanel
     Left = 256
@@ -749,7 +684,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 71
-    OnClick = Panel1Click
   end
   object Panel69: TPanel
     Left = 288
@@ -759,7 +693,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 72
-    OnClick = Panel1Click
   end
   object Panel70: TPanel
     Left = 320
@@ -769,7 +702,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 73
-    OnClick = Panel1Click
   end
   object Panel71: TPanel
     Left = 32
@@ -779,7 +711,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 74
-    OnClick = Panel1Click
   end
   object Panel72: TPanel
     Left = 64
@@ -789,7 +720,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 75
-    OnClick = Panel1Click
   end
   object Panel73: TPanel
     Left = 96
@@ -799,7 +729,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 76
-    OnClick = Panel1Click
   end
   object Panel74: TPanel
     Left = 128
@@ -809,7 +738,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 77
-    OnClick = Panel1Click
   end
   object Panel75: TPanel
     Left = 160
@@ -819,7 +747,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 78
-    OnClick = Panel1Click
   end
   object Panel76: TPanel
     Left = 192
@@ -829,7 +756,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 79
-    OnClick = Panel1Click
   end
   object Panel77: TPanel
     Left = 224
@@ -839,7 +765,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 80
-    OnClick = Panel1Click
   end
   object Panel78: TPanel
     Left = 256
@@ -849,7 +774,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 81
-    OnClick = Panel1Click
   end
   object Panel79: TPanel
     Left = 288
@@ -859,7 +783,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 82
-    OnClick = Panel1Click
   end
   object Panel80: TPanel
     Left = 320
@@ -869,7 +792,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 83
-    OnClick = Panel1Click
   end
   object Panel81: TPanel
     Left = 32
@@ -879,7 +801,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 84
-    OnClick = Panel1Click
   end
   object Panel82: TPanel
     Left = 64
@@ -889,7 +810,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 85
-    OnClick = Panel1Click
   end
   object Panel83: TPanel
     Left = 96
@@ -899,7 +819,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 86
-    OnClick = Panel1Click
   end
   object Panel84: TPanel
     Left = 128
@@ -909,7 +828,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 87
-    OnClick = Panel1Click
   end
   object Panel85: TPanel
     Left = 160
@@ -919,7 +837,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 88
-    OnClick = Panel1Click
   end
   object Panel86: TPanel
     Left = 192
@@ -929,7 +846,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 89
-    OnClick = Panel1Click
   end
   object Panel87: TPanel
     Left = 224
@@ -939,7 +855,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 90
-    OnClick = Panel1Click
   end
   object Panel88: TPanel
     Left = 256
@@ -949,7 +864,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 91
-    OnClick = Panel1Click
   end
   object Panel89: TPanel
     Left = 288
@@ -959,7 +873,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 92
-    OnClick = Panel1Click
   end
   object Panel90: TPanel
     Left = 320
@@ -969,7 +882,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 93
-    OnClick = Panel1Click
   end
   object Panel91: TPanel
     Left = 32
@@ -979,7 +891,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 94
-    OnClick = Panel1Click
   end
   object Panel92: TPanel
     Left = 64
@@ -989,7 +900,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 95
-    OnClick = Panel1Click
   end
   object Panel93: TPanel
     Left = 96
@@ -999,7 +909,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 96
-    OnClick = Panel1Click
   end
   object Panel94: TPanel
     Left = 128
@@ -1009,7 +918,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 97
-    OnClick = Panel1Click
   end
   object Panel95: TPanel
     Left = 160
@@ -1019,7 +927,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 98
-    OnClick = Panel1Click
   end
   object Panel96: TPanel
     Left = 192
@@ -1029,7 +936,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 99
-    OnClick = Panel1Click
   end
   object Panel97: TPanel
     Left = 224
@@ -1039,7 +945,6 @@ object Form1: TForm1
     Color = clGray
     ParentColor = False
     TabOrder = 100
-    OnClick = Panel1Click
   end
   object Panel98: TPanel
     Left = 256
@@ -1049,7 +954,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 101
-    OnClick = Panel1Click
   end
   object Panel99: TPanel
     Left = 288
@@ -1059,7 +963,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 102
-    OnClick = Panel1Click
   end
   object Panel100: TPanel
     Left = 320
@@ -1069,7 +972,6 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 103
-    OnClick = Panel1Click
   end
   object Panel101: TPanel
     Left = 432
@@ -1079,7 +981,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 104
-    OnClick = Panel1Click
+    OnClick = Panel101Click
   end
   object Panel102: TPanel
     Left = 464
@@ -1089,7 +991,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 105
-    OnClick = Panel1Click
+    OnClick = Panel102Click
   end
   object Panel103: TPanel
     Left = 496
@@ -1099,7 +1001,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 106
-    OnClick = Panel1Click
+    OnClick = Panel103Click
   end
   object Panel104: TPanel
     Left = 528
@@ -1109,7 +1011,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 107
-    OnClick = Panel1Click
+    OnClick = Panel104Click
   end
   object Panel105: TPanel
     Left = 560
@@ -1119,7 +1021,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 108
-    OnClick = Panel1Click
+    OnClick = Panel105Click
   end
   object Panel106: TPanel
     Left = 592
@@ -1129,7 +1031,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 109
-    OnClick = Panel1Click
+    OnClick = Panel106Click
   end
   object Panel107: TPanel
     Left = 624
@@ -1139,7 +1041,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 110
-    OnClick = Panel1Click
+    OnClick = Panel107Click
   end
   object Panel108: TPanel
     Left = 656
@@ -1149,7 +1051,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 111
-    OnClick = Panel1Click
+    OnClick = Panel108Click
   end
   object Panel109: TPanel
     Left = 688
@@ -1159,7 +1061,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 112
-    OnClick = Panel1Click
+    OnClick = Panel109Click
   end
   object Panel110: TPanel
     Left = 720
@@ -1169,7 +1071,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 113
-    OnClick = Panel1Click
+    OnClick = Panel110Click
   end
   object Panel111: TPanel
     Left = 432
@@ -1179,7 +1081,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 114
-    OnClick = Panel1Click
+    OnClick = Panel111Click
   end
   object Panel112: TPanel
     Left = 464
@@ -1189,7 +1091,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 115
-    OnClick = Panel1Click
+    OnClick = Panel112Click
   end
   object Panel113: TPanel
     Left = 496
@@ -1199,7 +1101,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 116
-    OnClick = Panel1Click
+    OnClick = Panel113Click
   end
   object Panel114: TPanel
     Left = 528
@@ -1209,7 +1111,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 117
-    OnClick = Panel1Click
+    OnClick = Panel114Click
   end
   object Panel115: TPanel
     Left = 560
@@ -1219,7 +1121,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 118
-    OnClick = Panel1Click
+    OnClick = Panel115Click
   end
   object Panel116: TPanel
     Left = 592
@@ -1229,7 +1131,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 119
-    OnClick = Panel1Click
+    OnClick = Panel116Click
   end
   object Panel117: TPanel
     Left = 624
@@ -1239,7 +1141,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 120
-    OnClick = Panel1Click
+    OnClick = Panel117Click
   end
   object Panel118: TPanel
     Left = 656
@@ -1249,7 +1151,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 121
-    OnClick = Panel1Click
+    OnClick = Panel118Click
   end
   object Panel119: TPanel
     Left = 688
@@ -1259,7 +1161,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 122
-    OnClick = Panel1Click
+    OnClick = Panel119Click
   end
   object Panel120: TPanel
     Left = 720
@@ -1269,7 +1171,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 123
-    OnClick = Panel1Click
+    OnClick = Panel120Click
   end
   object Panel121: TPanel
     Left = 432
@@ -1279,7 +1181,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 124
-    OnClick = Panel1Click
+    OnClick = Panel121Click
   end
   object Panel122: TPanel
     Left = 464
@@ -1289,7 +1191,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 125
-    OnClick = Panel1Click
+    OnClick = Panel122Click
   end
   object Panel123: TPanel
     Left = 496
@@ -1299,7 +1201,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 126
-    OnClick = Panel1Click
+    OnClick = Panel123Click
   end
   object Panel124: TPanel
     Left = 528
@@ -1309,7 +1211,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 127
-    OnClick = Panel1Click
+    OnClick = Panel124Click
   end
   object Panel125: TPanel
     Left = 560
@@ -1319,7 +1221,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 128
-    OnClick = Panel1Click
+    OnClick = Panel125Click
   end
   object Panel126: TPanel
     Left = 592
@@ -1329,7 +1231,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 129
-    OnClick = Panel1Click
+    OnClick = Panel126Click
   end
   object Panel127: TPanel
     Left = 624
@@ -1339,7 +1241,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 130
-    OnClick = Panel1Click
+    OnClick = Panel127Click
   end
   object Panel128: TPanel
     Left = 656
@@ -1349,7 +1251,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 131
-    OnClick = Panel1Click
+    OnClick = Panel128Click
   end
   object Panel129: TPanel
     Left = 688
@@ -1359,7 +1261,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 132
-    OnClick = Panel1Click
+    OnClick = Panel129Click
   end
   object Panel130: TPanel
     Left = 720
@@ -1369,7 +1271,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 133
-    OnClick = Panel1Click
+    OnClick = Panel130Click
   end
   object Panel131: TPanel
     Left = 432
@@ -1379,7 +1281,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 134
-    OnClick = Panel1Click
+    OnClick = Panel131Click
   end
   object Panel132: TPanel
     Left = 464
@@ -1389,7 +1291,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 135
-    OnClick = Panel1Click
+    OnClick = Panel132Click
   end
   object Panel133: TPanel
     Left = 496
@@ -1399,7 +1301,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 136
-    OnClick = Panel1Click
+    OnClick = Panel133Click
   end
   object Panel134: TPanel
     Left = 528
@@ -1409,7 +1311,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 137
-    OnClick = Panel1Click
+    OnClick = Panel134Click
   end
   object Panel135: TPanel
     Left = 560
@@ -1419,7 +1321,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 138
-    OnClick = Panel1Click
+    OnClick = Panel135Click
   end
   object Panel136: TPanel
     Left = 592
@@ -1429,7 +1331,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 139
-    OnClick = Panel1Click
+    OnClick = Panel136Click
   end
   object Panel137: TPanel
     Left = 624
@@ -1439,7 +1341,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 140
-    OnClick = Panel1Click
+    OnClick = Panel137Click
   end
   object Panel138: TPanel
     Left = 656
@@ -1449,7 +1351,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 141
-    OnClick = Panel1Click
+    OnClick = Panel138Click
   end
   object Panel139: TPanel
     Left = 688
@@ -1459,7 +1361,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 142
-    OnClick = Panel1Click
+    OnClick = Panel139Click
   end
   object Panel140: TPanel
     Left = 720
@@ -1469,7 +1371,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 143
-    OnClick = Panel1Click
+    OnClick = Panel140Click
   end
   object Panel141: TPanel
     Left = 432
@@ -1479,7 +1381,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 144
-    OnClick = Panel1Click
+    OnClick = Panel141Click
   end
   object Panel142: TPanel
     Left = 464
@@ -1489,7 +1391,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 145
-    OnClick = Panel1Click
+    OnClick = Panel142Click
   end
   object Panel143: TPanel
     Left = 496
@@ -1499,7 +1401,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 146
-    OnClick = Panel1Click
+    OnClick = Panel143Click
   end
   object Panel144: TPanel
     Left = 528
@@ -1509,7 +1411,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 147
-    OnClick = Panel1Click
+    OnClick = Panel144Click
   end
   object Panel145: TPanel
     Left = 560
@@ -1519,7 +1421,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 148
-    OnClick = Panel1Click
+    OnClick = Panel145Click
   end
   object Panel146: TPanel
     Left = 592
@@ -1529,7 +1431,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 149
-    OnClick = Panel1Click
+    OnClick = Panel146Click
   end
   object Panel147: TPanel
     Left = 624
@@ -1539,7 +1441,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 150
-    OnClick = Panel1Click
+    OnClick = Panel147Click
   end
   object Panel148: TPanel
     Left = 656
@@ -1549,7 +1451,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 151
-    OnClick = Panel1Click
+    OnClick = Panel148Click
   end
   object Panel149: TPanel
     Left = 688
@@ -1559,7 +1461,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 152
-    OnClick = Panel1Click
+    OnClick = Panel149Click
   end
   object Panel150: TPanel
     Left = 720
@@ -1569,7 +1471,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 153
-    OnClick = Panel1Click
+    OnClick = Panel150Click
   end
   object Panel151: TPanel
     Left = 432
@@ -1579,7 +1481,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 154
-    OnClick = Panel1Click
+    OnClick = Panel151Click
   end
   object Panel152: TPanel
     Left = 464
@@ -1589,7 +1491,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 155
-    OnClick = Panel1Click
+    OnClick = Panel152Click
   end
   object Panel153: TPanel
     Left = 496
@@ -1599,7 +1501,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 156
-    OnClick = Panel1Click
+    OnClick = Panel153Click
   end
   object Panel154: TPanel
     Left = 528
@@ -1609,7 +1511,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 157
-    OnClick = Panel1Click
+    OnClick = Panel154Click
   end
   object Panel155: TPanel
     Left = 560
@@ -1619,7 +1521,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 158
-    OnClick = Panel1Click
+    OnClick = Panel155Click
   end
   object Panel156: TPanel
     Left = 592
@@ -1629,7 +1531,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 159
-    OnClick = Panel1Click
+    OnClick = Panel156Click
   end
   object Panel157: TPanel
     Left = 624
@@ -1639,7 +1541,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 160
-    OnClick = Panel1Click
+    OnClick = Panel157Click
   end
   object Panel158: TPanel
     Left = 656
@@ -1649,7 +1551,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 161
-    OnClick = Panel1Click
+    OnClick = Panel158Click
   end
   object Panel159: TPanel
     Left = 688
@@ -1659,7 +1561,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 162
-    OnClick = Panel1Click
+    OnClick = Panel159Click
   end
   object Panel160: TPanel
     Left = 720
@@ -1669,7 +1571,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 163
-    OnClick = Panel1Click
+    OnClick = Panel160Click
   end
   object Panel161: TPanel
     Left = 432
@@ -1679,7 +1581,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 164
-    OnClick = Panel1Click
+    OnClick = Panel161Click
   end
   object Panel162: TPanel
     Left = 464
@@ -1689,7 +1591,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 165
-    OnClick = Panel1Click
+    OnClick = Panel162Click
   end
   object Panel163: TPanel
     Left = 496
@@ -1699,7 +1601,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 166
-    OnClick = Panel1Click
+    OnClick = Panel163Click
   end
   object Panel164: TPanel
     Left = 528
@@ -1709,7 +1611,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 167
-    OnClick = Panel1Click
+    OnClick = Panel164Click
   end
   object Panel165: TPanel
     Left = 560
@@ -1719,7 +1621,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 168
-    OnClick = Panel1Click
+    OnClick = Panel165Click
   end
   object Panel166: TPanel
     Left = 592
@@ -1729,7 +1631,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 169
-    OnClick = Panel1Click
+    OnClick = Panel166Click
   end
   object Panel167: TPanel
     Left = 624
@@ -1739,7 +1641,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 170
-    OnClick = Panel1Click
+    OnClick = Panel167Click
   end
   object Panel168: TPanel
     Left = 656
@@ -1749,7 +1651,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 171
-    OnClick = Panel1Click
+    OnClick = Panel168Click
   end
   object Panel169: TPanel
     Left = 688
@@ -1759,7 +1661,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 172
-    OnClick = Panel1Click
+    OnClick = Panel169Click
   end
   object Panel170: TPanel
     Left = 720
@@ -1769,7 +1671,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 173
-    OnClick = Panel1Click
+    OnClick = Panel170Click
   end
   object Panel171: TPanel
     Left = 432
@@ -1779,7 +1681,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 174
-    OnClick = Panel1Click
+    OnClick = Panel171Click
   end
   object Panel172: TPanel
     Left = 464
@@ -1789,7 +1691,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 175
-    OnClick = Panel1Click
+    OnClick = Panel172Click
   end
   object Panel173: TPanel
     Left = 496
@@ -1799,7 +1701,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 176
-    OnClick = Panel1Click
+    OnClick = Panel173Click
   end
   object Panel174: TPanel
     Left = 528
@@ -1809,7 +1711,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 177
-    OnClick = Panel1Click
+    OnClick = Panel174Click
   end
   object Panel175: TPanel
     Left = 560
@@ -1819,7 +1721,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 178
-    OnClick = Panel1Click
+    OnClick = Panel175Click
   end
   object Panel176: TPanel
     Left = 592
@@ -1829,7 +1731,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 179
-    OnClick = Panel1Click
+    OnClick = Panel176Click
   end
   object Panel177: TPanel
     Left = 624
@@ -1839,7 +1741,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 180
-    OnClick = Panel1Click
+    OnClick = Panel177Click
   end
   object Panel178: TPanel
     Left = 656
@@ -1849,7 +1751,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 181
-    OnClick = Panel1Click
+    OnClick = Panel178Click
   end
   object Panel179: TPanel
     Left = 688
@@ -1859,7 +1761,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 182
-    OnClick = Panel1Click
+    OnClick = Panel179Click
   end
   object Panel180: TPanel
     Left = 720
@@ -1869,7 +1771,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 183
-    OnClick = Panel1Click
+    OnClick = Panel180Click
   end
   object Panel181: TPanel
     Left = 432
@@ -1879,7 +1781,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 184
-    OnClick = Panel1Click
+    OnClick = Panel181Click
   end
   object Panel182: TPanel
     Left = 464
@@ -1889,7 +1791,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 185
-    OnClick = Panel1Click
+    OnClick = Panel182Click
   end
   object Panel183: TPanel
     Left = 496
@@ -1899,7 +1801,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 186
-    OnClick = Panel1Click
+    OnClick = Panel183Click
   end
   object Panel184: TPanel
     Left = 528
@@ -1909,7 +1811,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 187
-    OnClick = Panel1Click
+    OnClick = Panel184Click
   end
   object Panel185: TPanel
     Left = 560
@@ -1919,7 +1821,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 188
-    OnClick = Panel1Click
+    OnClick = Panel185Click
   end
   object Panel186: TPanel
     Left = 592
@@ -1929,7 +1831,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 189
-    OnClick = Panel1Click
+    OnClick = Panel186Click
   end
   object Panel187: TPanel
     Left = 624
@@ -1939,7 +1841,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 190
-    OnClick = Panel1Click
+    OnClick = Panel187Click
   end
   object Panel188: TPanel
     Left = 656
@@ -1949,7 +1851,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 191
-    OnClick = Panel1Click
+    OnClick = Panel188Click
   end
   object Panel189: TPanel
     Left = 688
@@ -1959,7 +1861,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 192
-    OnClick = Panel1Click
+    OnClick = Panel189Click
   end
   object Panel190: TPanel
     Left = 720
@@ -1969,7 +1871,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 193
-    OnClick = Panel1Click
+    OnClick = Panel190Click
   end
   object Panel191: TPanel
     Left = 432
@@ -1979,7 +1881,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 194
-    OnClick = Panel1Click
+    OnClick = Panel191Click
   end
   object Panel192: TPanel
     Left = 464
@@ -1989,7 +1891,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 195
-    OnClick = Panel1Click
+    OnClick = Panel192Click
   end
   object Panel193: TPanel
     Left = 496
@@ -1999,7 +1901,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 196
-    OnClick = Panel1Click
+    OnClick = Panel193Click
   end
   object Panel194: TPanel
     Left = 528
@@ -2009,7 +1911,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 197
-    OnClick = Panel1Click
+    OnClick = Panel194Click
   end
   object Panel195: TPanel
     Left = 560
@@ -2019,7 +1921,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 198
-    OnClick = Panel1Click
+    OnClick = Panel195Click
   end
   object Panel196: TPanel
     Left = 592
@@ -2029,7 +1931,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 199
-    OnClick = Panel1Click
+    OnClick = Panel196Click
   end
   object Panel197: TPanel
     Left = 624
@@ -2039,7 +1941,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 200
-    OnClick = Panel1Click
+    OnClick = Panel197Click
   end
   object Panel198: TPanel
     Left = 656
@@ -2049,7 +1951,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 201
-    OnClick = Panel1Click
+    OnClick = Panel198Click
   end
   object Panel199: TPanel
     Left = 688
@@ -2059,7 +1961,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 202
-    OnClick = Panel1Click
+    OnClick = Panel199Click
   end
   object Panel200: TPanel
     Left = 720
@@ -2069,7 +1971,7 @@ object Form1: TForm1
     Color = clSilver
     ParentColor = False
     TabOrder = 203
-    OnClick = Panel1Click
+    OnClick = Panel200Click
   end
   object Label1: TLabel
     Left = 40
@@ -2632,11 +2534,11 @@ object Form1: TForm1
     ParentFont = False
   end
   object Button3: TButton
-    Left = 360
+    Left = 352
     Height = 25
-    Top = 152
-    Width = 48
-    Caption = 'Change'
+    Top = 2
+    Width = 75
+    Caption = 'Перевод'
     OnClick = Button3Click
     TabOrder = 204
   end
